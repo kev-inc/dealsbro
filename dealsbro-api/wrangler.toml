@@ -1,0 +1,11 @@
+name = "dealsbro-api"
+type = "webpack"
+
+account_id = "f4faa25babf160d8f45bfc33444f4dee"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-12-03"
+kv_namespaces = [
+    {binding = "DEALSBRO", id = "d7ec4f0d72364e51b04c5623e9008c24", preview_id = "d7ec4f0d72364e51b04c5623e9008c24"},
+]
