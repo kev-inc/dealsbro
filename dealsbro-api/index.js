@@ -1,5 +1,7 @@
 import { Router } from 'itty-router'
-import { addNewDeal, getAllDeals } from './api/deals'
+import { addNewDeal, getAllDeals, getDeal, updateDeal, deleteDeal } from './api/deals'
+import { getAllOrganisations, addNewOrganisations, getOrganisation, updateOrganisation, deleteOrganisation } from './api/organisations'
+import { getAllOutlets, addNewOutlet, getOutlet, updateOutlet, deleteOutlet } from './api/outlets'
 
 // Create a new router
 const router = Router()
@@ -13,6 +15,21 @@ router.get("/", () => {
 
 router.get("/deals", getAllDeals)
 router.post("/deals", addNewDeal)
+router.get("/deals/:dealId", getDeal)
+router.put("/deals/:dealId", updateDeal)
+router.delete("/deals/:dealId", deleteDeal)
+
+router.get("/organisations", getAllOrganisations)
+router.post("/organisations", addNewOrganisations)
+router.get("/organisations/:orgId", getOrganisation)
+router.put("/organisations/:orgId", updateOrganisation)
+router.delete("/organisations/:orgId", deleteOrganisation)
+
+router.get("/outlets", getAllOutlets)
+router.post("/outlets", addNewOutlet)
+router.get("/outlets/:outletId", getOutlet)
+router.put("/outlets/:outletId", updateOutlet)
+router.delete("/outlets/:outletId", deleteOutlet)
 
 router.all("*", () => new Response("404, not found!", { status: 404 }))
 
@@ -34,6 +51,7 @@ deal {
 outlet {
     id,
     name,
+    company,
     address
     postalCode
     longitude
@@ -42,7 +60,7 @@ outlet {
 
 company {
     id,
-    name,
+    name
     outlets
 }
 */
