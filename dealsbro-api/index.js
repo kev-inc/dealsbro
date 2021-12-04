@@ -2,14 +2,12 @@ import { Router } from 'itty-router'
 import { addNewDeal, getAllDeals, getDeal, updateDeal, deleteDeal } from './api/deals'
 import { getAllOrganisations, addNewOrganisations, getOrganisation, updateOrganisation, deleteOrganisation } from './api/organisations'
 import { getAllOutlets, addNewOutlet, getOutlet, updateOutlet, deleteOutlet } from './api/outlets'
-import { getLongLatFromPostalCode } from './api/geocode'
+import { corsHelper } from './cors-helper'
 
-// Create a new router
 const router = Router()
 
-/*
-Our index route, a simple hello world.
-*/
+router.options('*', corsHelper)
+
 router.get("/", () => {
   return new Response("Hello, world! This is the root page of your Worker template.")
 })

@@ -1,3 +1,5 @@
+import { getLongLatFromPostalCode } from "../utils/geocode"
+
 const headers = {
     'Access-Control-Allow-Origin': '*',
     'Content-type': 'application/json',
@@ -21,6 +23,9 @@ export const addNewOutlet = async request => {
     const outlets = await get()
     const toAdd = await request.json()
     toAdd['id'] = crypto.randomUUID()
+    const geocode = await getLongLatFromPostalCode(toAdd['postalCode'])
+    toAdd['longitude'] = geocode['longt']
+    toAdd['latitude'] = geocode['latt']
     outlets.push(toAdd)
     await set(outlets)
     return new Response(JSON.stringify(toAdd, null, 2), { status: 201, headers })
@@ -45,6 +50,9 @@ export const updateOutlet = async request => {
         return new Response(JSON.stringify({"error": "outletId not found"}, null, 2), { status: 404, headers })
     }
     toPut['id'] = outletId
+    const geocode = await getLongLatFromPostalCode(toAdd['postalCode'])
+    toPut['longitude'] = geocode['longt']
+    toPut['latitude'] = geocode['latt']
     outlets[indexToPut] = toPut
     await set(outlets)
     return new Response(JSON.stringify(toPut, null, 2), { headers })

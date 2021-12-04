@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import { DEALS, OUTLETS } from '../mockdata';
 import './Map.css';
+import { getOutlets } from '../api/Api';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
 
@@ -20,6 +21,17 @@ const MapView = () => {
             center: [lng, lat],
             zoom: zoom
         });
+
+        getOutlets().then(outlets => {
+            outlets.forEach(outlet => {
+                const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
+                    <h3 class="has-text-weight-semibold">${outlet.name}</h3>
+                    <p>${outlet.address}</p>
+                `)
+                new mapboxgl.Marker().setLngLat([outlet['longitude'], outlet['latitude']]).setPopup(popup).addTo(map.current)
+            })
+        })
+
 
         DEALS.forEach(deal => {
             deal.outlets.forEach(outlet => {
