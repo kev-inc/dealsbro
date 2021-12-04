@@ -217,6 +217,21 @@ paths:
       responses:
         "204":
           description: "Outlet has been deleted"
+    
+  /geocode/{postalCode}:
+    get:
+      tags:
+      - "geocode"
+      summary: "Get geocode from postal code"
+      parameters:
+      - name: "postalCode"
+        in: "path"
+        description: "Postal Code"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Geocode data of postal code"
       
 securityDefinitions:
   api_key:

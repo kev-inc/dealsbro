@@ -2,6 +2,7 @@ import { Router } from 'itty-router'
 import { addNewDeal, getAllDeals, getDeal, updateDeal, deleteDeal } from './api/deals'
 import { getAllOrganisations, addNewOrganisations, getOrganisation, updateOrganisation, deleteOrganisation } from './api/organisations'
 import { getAllOutlets, addNewOutlet, getOutlet, updateOutlet, deleteOutlet } from './api/outlets'
+import { getLongLatFromPostalCode } from './api/geocode'
 
 // Create a new router
 const router = Router()
@@ -30,6 +31,8 @@ router.post("/outlets", addNewOutlet)
 router.get("/outlets/:outletId", getOutlet)
 router.put("/outlets/:outletId", updateOutlet)
 router.delete("/outlets/:outletId", deleteOutlet)
+
+router.get("/geocode/:postalCode", getLongLatFromPostalCode)
 
 router.all("*", () => new Response("404, not found!", { status: 404 }))
 
