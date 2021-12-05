@@ -23,7 +23,7 @@ const MapView = () => {
         });
 
         getOutlets().then(outlets => {
-            outlets.forEach(outlet => {
+            Object.values(outlets).forEach(outlet => {
                 const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
                     <h3 class="has-text-weight-semibold">${outlet.name}</h3>
                     <p>${outlet.address}</p>

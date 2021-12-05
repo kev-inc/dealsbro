@@ -7,6 +7,6 @@ const headers = {
 
 export const getGeocode = async request => {
     const postalCode = request.params.postalCode
-    const resp = getLongLatFromPostalCode(postalCode)
+    const resp = await getLongLatFromPostalCode(postalCode)
     return new Response(JSON.stringify(resp, null, 2), { headers })
 }

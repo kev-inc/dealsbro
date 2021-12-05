@@ -3,6 +3,7 @@ import { addNewDeal, getAllDeals, getDeal, updateDeal, deleteDeal } from './api/
 import { getAllOrganisations, addNewOrganisations, getOrganisation, updateOrganisation, deleteOrganisation } from './api/organisations'
 import { getAllOutlets, addNewOutlet, getOutlet, updateOutlet, deleteOutlet } from './api/outlets'
 import { corsHelper } from './cors-helper'
+import { getGeocode } from './api/geocode'
 
 const router = Router()
 
@@ -30,7 +31,7 @@ router.get("/outlets/:outletId", getOutlet)
 router.put("/outlets/:outletId", updateOutlet)
 router.delete("/outlets/:outletId", deleteOutlet)
 
-router.get("/geocode/:postalCode", getLongLatFromPostalCode)
+router.get("/geocode/:postalCode", getGeocode)
 
 router.all("*", () => new Response("404, not found!", { status: 404 }))
 
