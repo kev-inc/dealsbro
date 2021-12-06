@@ -1,197 +1,229 @@
-201 {'name': 'McDonald’s Alocassia', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '383 Bukit Timah Road #01-09B Alocassia Apartments, Singapore 259727', 'postalCode': '259727', 'id': '6e7523b5-3baf-4874-8a6c-c13b484715e1', 'longitude': '103.82735', 'latitude': '1.31944'}
-201 {'name': 'McDonald’s Ang Mo Kio', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '51 Ang Mo Kio Avenue 3 #01-04 51 @ AMK, Singapore 569922', 'postalCode': '569922', 'id': '8daeae44-e3b1-4543-ac98-31b2a9c89893', 'longitude': '103.84716', 'latitude': '1.36930'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Ang Mo Kio 4', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '163 Ang Mo Kio Avenue 4 #01-438, Singapore 560163', 'postalCode': '560163', 'id': '7627f1eb-a31f-428b-a03d-709302d80375', 'longitude': '103.83817', 'latitude': '1.37355'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Ang Mo Kio Ave 10', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '448 Ang Mo Kio Avenue 10 #01-1693, Singapore 560448', 'postalCode': '560448', 'id': '3d2063f5-75a7-45f9-9b54-d9473658bb74', 'longitude': '103.85640', 'latitude': '1.36744'}
-201 {'name': 'McDonald’s Ang Mo Kio Park', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '10 Ang Mo Kio Street 12, Singapore 567740', 'postalCode': '567740', 'id': '8dfcb3e6-c141-4dc8-b8c5-8ac355dbfb92', 'longitude': '103.84474', 'latitude': '1.37247'}
-201 {'name': 'McDonald’s Aperia Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '12 Kallang Avenue Aperia #01-24, Singapore 339511', 'postalCode': '339511', 'id': 'fcb58a2e-8cab-4933-86af-0e39bae3ad38', 'longitude': '103.86424', 'latitude': '1.30970'}
-201 {'name': 'McDonald’s Beauty World', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '144 Upper Bukit Timah Road #01-39 &amp; #01-40 Beauty World Centre, Singapore 588177', 'postalCode': '588177', 'id': '1563c36b-6ab6-4d85-9ba5-782367abd9c1', 'longitude': '103.77618', 'latitude': '1.34228'}
-201 {'name': 'McDonald’s Bedok Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '311 New Upper Changi Road Unit #01-10/11 Bedok Mall, Singapore 467360', 'postalCode': '467360', 'id': '6cc0dffc-f8dd-4d4c-968d-849fda0354f3', 'longitude': '103.92952', 'latitude': '1.32500'}
-201 {'name': 'McDonald’s Bedok North', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '539 Bedok North Street 3 #01-643, Singapore 460539', 'postalCode': '460539', 'id': 'cfa66f1c-8c51-491d-b5fa-e583252a4bdc', 'longitude': '103.92531', 'latitude': '1.33131'}
-201 {'name': 'McDonald’s Bedok Reservoir', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '632 Bedok Reservoir Road #01-850, Singapore 470632', 'postalCode': '470632', 'id': '3c8ed9ef-6fbe-47eb-92e4-388812c42c6d', 'longitude': '103.91389', 'latitude': '1.33262'}
-201 {'name': 'McDonald’s Bedok Reservoir Park', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 744 Bedok Reservoir Road #01-3019, Singapore 470744', 'postalCode': '470744', 'id': 'c13f4fb5-17ca-4432-83ec-4e536a9c1cd7', 'longitude': '103.92166', 'latitude': '1.33786'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Bendemeer', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '22 Boon Keng Road #01-01, Singapore 330022', 'postalCode': '330022', 'id': '085f88b0-c954-45a4-bdca-9533d333c12e', 'longitude': '103.86140', 'latitude': '1.31818'}
-201 {'name': 'McDonald’s Bishan Junction 8', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '9 Bishan Place #01-20 Junction 8, Singapore 579837', 'postalCode': '579837', 'id': 'ee591556-a1e6-4a7e-b77e-9bbed4db2dcc', 'longitude': '103.84865', 'latitude': '1.35055'}
-201 {'name': 'McDonald’s Bishan Park', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1378 Ang Mo Kio Ave 1, Singapore 569981', 'postalCode': '569981', 'id': '72c76c64-188d-419b-b2ce-99eb9eb0058c', 'longitude': '103.84661', 'latitude': '1.36110'}
-201 {'name': 'McDonald’s Boat Quay', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 South Canal Road, Singapore 048508', 'postalCode': '048508', 'id': '66cd2028-1556-4a9b-9cc9-a5f7986f6b6a', 'longitude': '103.84984', 'latitude': '1.28579'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 500 {'error': 'Error getting geocode data'}
-Retry 3 500 {'error': 'Error getting geocode data'}
-201 {'name': 'McDonald’s Bugis Junction', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '200 Victoria Street #01-66 Bugis Junction, Singapore 188024', 'postalCode': '188024', 'id': 'eab70b94-719d-4219-b7ec-eccd70898622', 'longitude': '103.85619', 'latitude': '1.30012'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 201 {'name': 'McDonald’s Bugis Village', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '151/152 Rochor Road, Singapore 188426', 'postalCode': '188426', 'id': 'c9f30a3f-4cf0-44a1-b4d3-7b98f58f7dc5', 'longitude': '103.85526', 'latitude': '1.30090'}
-201 {'name': 'McDonald’s Bukit Batok', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '632 Bukit Batok Central #01-138/#01-140 / #01-142, Singapore 650632', 'postalCode': '650632', 'id': '8f6d9619-6252-44ea-bf11-5bac4773a1de', 'longitude': '103.75083', 'latitude': '1.34930'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 500 {'error': 'Error getting geocode data'}
-Retry 3 500 {'error': 'Error getting geocode data'}
-201 {'name': 'McDonald’s Bukit Gombak', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '374 Bukit Batok Street 31 #01-198 &amp; #01-202, Singapore 650374', 'postalCode': '650374', 'id': '75d85cd4-a1a6-4d92-adb4-9da7c1330444', 'longitude': '103.75072', 'latitude': '1.35810'}
-201 {'name': 'McDonald’s Bukit Panjang Plaza', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Jelebu Road #02-01 Bukit Panjang Plaza, Singapore 677743', 'postalCode': '677743', 'id': 'f35da581-224b-4518-83b4-bd6a8e98c310', 'longitude': '103.76418', 'latitude': '1.38049'}
-201 {'name': 'McDonald’s Canberra', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 133 Canberra View, #01-01 to&nbsp; #01-03, Singapore 750133', 'postalCode': '750133', 'id': 'feed7209-eb78-43ba-82e6-f77450dd9504', 'longitude': '103.83035', 'latitude': '1.44350'}
-201 {'name': 'McDonald’s Causeway Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Woodlands Square #01-35 Causeway Point, Singapore 738099', 'postalCode': '738099', 'id': '3210666f-212d-4830-8104-edc3aa471493', 'longitude': '103.78573', 'latitude': '1.43618'}
-201 {'name': 'McDonald’s Changi City Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '5 Changi Business Park Central 1 #01-10/11 Changi City Point, Singapore 486038', 'postalCode': '486038', 'id': 'ddea836c-71e3-4888-bd17-61ffa9453c2d', 'longitude': '103.96244', 'latitude': '1.33442'}
-201 {'name': 'McDonald’s Chinatown Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '133 New Bridge Road #01-03 Chinatown Point, Singapore 059432', 'postalCode': '059432', 'id': '8264e9cb-fdb4-4522-acde-58a14a24252a', 'longitude': '103.84331', 'latitude': '1.28365'}
-201 {'name': 'McDonald’s Choa Chu Kang  62', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 624 Choa Chu Kang Street 62 #01-262/264. Singapore 680624, Singapore 680623', 'postalCode': '680623', 'id': '5042a1bb-e335-4f2c-be8f-fa11fb076021', 'longitude': '103.74734', 'latitude': '1.39832'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Choa Chu Kang 4', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': "21 Choa Chu Kang Avenue 4 Lot 1 Shopper's Mall #01-20, Singapore 689812", 'postalCode': '689812', 'id': 'a1efd551-7b5e-4fc3-80d1-38641d9e3f79', 'longitude': '103.74494', 'latitude': '1.38540'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Choa Chu Kang 4 (Kiosk)', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '10 Choa Chu Kang Avenue 4 #01-21 Cold Kiosk at Choa Chu Kang MRT Station, Singapore 689810', 'postalCode': '689810', 'id': 'd03babb1-c895-48a9-8de2-b1d76d604506', 'longitude': '103.74450', 'latitude': '1.38540'}
-201 {'name': 'McDonald’s Chua Chu Kang CC', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '35 Teck Whye Avenue #01-01 Chua Chu Kang Community Club, Singapore 688892', 'postalCode': '688892', 'id': '35a904b6-81b0-4378-966a-3d7304c0876a', 'longitude': '103.75145', 'latitude': '1.38117'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 201 {'name': 'McDonald’s City Square Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '180 Kitchener Rd #B1-03/05 City Square Mall, Singapore 208539', 'postalCode': '208539', 'id': '3321fc1c-eec9-4ce1-ae29-7395596d542a', 'longitude': '103.85651', 'latitude': '1.31129'}
-201 {'name': 'McDonald’s Clementi Avenue 3', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '451 Clementi Ave 3 # 01-309, Singapore 120451', 'postalCode': '120451', 'id': 'd26eddec-fd44-4b2c-ba8f-30ec163d4b14', 'longitude': '103.76584', 'latitude': '1.31282'}
-201 {'name': 'McDonald’s Clementi Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '3155 Commonwealth Ave West #01-06/07/08/09 &amp;02-06/07/08 The Clementi Mall, Singapore 129588', 'postalCode': '129588', 'id': '39cf001d-b3bb-4d4e-9a12-ee07dbb1a80c', 'longitude': '103.76454', 'latitude': '1.31526'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Clifford Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '24 Raffles place Singapore 048621 #B1-01/10 Clifford centre, Singapore 048621', 'postalCode': '048621', 'id': '5b21bb6b-af1c-4987-b97d-cba96c6edc6d', 'longitude': '103.85213', 'latitude': '1.28386'}
-201 {'name': 'McDonald’s Compass 1', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Sengkang Square #B1-13, Singapore 545078', 'postalCode': '545078', 'id': '3de8a91a-c479-45c4-ad35-8af3ea720184', 'longitude': '103.89759', 'latitude': '1.39719'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Downtown East', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Pasir Ris Close #01-338 Downtown East, Singapore 519599', 'postalCode': '519599', 'id': '0eca55b7-34a1-42a3-a09b-d0df022a19b8', 'longitude': '103.95514', 'latitude': '1.37670'}
-201 {'name': 'McDonald’s East Point Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '3 Simei Street 6, #01-34 Eastpoint Mall, Singapore 528833', 'postalCode': '528833', 'id': '5c98d55d-59b0-4948-b705-55324914f70a', 'longitude': '103.95338', 'latitude': '1.34277'}
-201 {'name': 'McDonald’s Elias Community Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '93 Pasir Ris Drive 3 #01-02 Pasir Ris Elias Community Centre, Singapore 519498', 'postalCode': '519498', 'id': 'e7a25386-d4ba-4e69-9731-303ef143c2f5', 'longitude': '103.94241', 'latitude': '1.37868'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Fairprice Hub', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Joo Koon Circle, Provisional Unit #01-27/28/29/30/31, Singapore 629117', 'postalCode': '629117', 'id': '433b2bbc-8ef7-4a18-b7e8-af1c803f38fe', 'longitude': '103.67838', 'latitude': '1.32591'}
-201 {'name': 'McDonald’s Fajar', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '445 Fajar Road #01-520, Singapore 670445', 'postalCode': '670445', 'id': 'ba291e31-b2e3-4db4-ba6c-66d521e21053', 'longitude': '103.77109', 'latitude': '1.38340'}
-201 {'name': 'McDonald’s Farrer Road', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '10 Jalan Serene #01-01 Serene Centre, Singapore 258748', 'postalCode': '258748', 'id': 'f5f9cdc4-8f3b-4d25-8222-b599b200e391', 'longitude': '103.81371', 'latitude': '1.32259'}
-201 {'name': 'McDonald’s Forum Galleria', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '583 Orchard Road #B1-25, #B1-33 to #B1-35 Forum The Shopping Mall, Singapore 238884', 'postalCode': '238884', 'id': '09aff1e7-faf5-45e7-875d-214669583559', 'longitude': '103.82851', 'latitude': '1.30620'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 500 {'error': 'Error getting geocode data'}
-Retry 3 201 {'name': 'McDonald’s Funan Center', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '107 North Bridge Road, Funan #01-16/17/21, Singapore 179105', 'postalCode': '179105', 'id': 'de19928b-2117-4fa7-9bc6-4ae50844cc23', 'longitude': '103.84996', 'latitude': '1.29143'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 500 {'error': 'Error getting geocode data'}
-Retry 3 500 {'error': 'Error getting geocode data'}
-201 {'name': 'McDonald’s Gek Poh', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '762 Jurong West Street 75 #02-250, Singapore 640762', 'postalCode': '640762', 'id': '50caae4e-8ec2-400d-a602-1c0bc4feb944', 'longitude': '103.69774', 'latitude': '1.34874'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Geylang East Central', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '113 Aljunied Ave 2 #01-01, Singapore 380113', 'postalCode': '380113', 'id': 'f7d699f6-4e95-400d-9abf-47aa85ee41dd', 'longitude': '103.88616', 'latitude': '1.32053'}
-201 {'name': 'McDonald’s Great World City', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Kim Seng Promenade #01-124 Great World City, Singapore 237994', 'postalCode': '237994', 'id': '56ca67f1-8400-43e7-8442-1c8dcd1832ed', 'longitude': '103.83216', 'latitude': '1.29333'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Greenridge Shopping Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 524A Jelapang Road #01-02A, Singapore 671524', 'postalCode': '671524', 'id': '39ad7f85-731b-4400-9682-b15d4d9f3414', 'longitude': '103.76621', 'latitude': '1.38541'}
-201 {'name': 'McDonald’s HarbourFront Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Maritime Square #01-87, #01-88 and #01-89 HarbourFront Centre, Singapore 099253', 'postalCode': '099253', 'id': '58c22868-ee2d-4030-a83e-5d2e5b1d54c4', 'longitude': '103.82057', 'latitude': '1.26351'}
-201 {'name': 'McDonald’s Hillion Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '17 Petir Road, # B1 – 25 Hillion Mall, Singapore 678278', 'postalCode': '678278', 'id': '7707da28-6aa7-4d30-aed8-2ec149bbf72e', 'longitude': '103.76398', 'latitude': '1.37852'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Hougang', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '208 Hougang Street 21 #01-217, Singapore 530208', 'postalCode': '530208', 'id': '3925d185-5221-4052-962e-d411c31a66cb', 'longitude': '103.88664', 'latitude': '1.35870'}
-201 {'name': 'McDonald’s Hougang 1', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Hougang Street 91 #01-26/39 Hougang 1, Singapore 538692', 'postalCode': '538692', 'id': '2401cd6b-6a56-4e2d-8a6c-6a7ac52a9cc9', 'longitude': '103.87976', 'latitude': '1.37553'}
-201 {'name': 'McDonald’s Hougang 8', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '684 Hougang Avenue 8 #01-999, Singapore 530684', 'postalCode': '530684', 'id': '0e276b2b-fb5c-4485-ae5d-ed7df4fba15b', 'longitude': '103.88690', 'latitude': '1.37396'}
-201 {'name': 'McDonald’s Hougang Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '90 Hougang Avenue 10 #01-17 Hougang Mall, Singapore 538766', 'postalCode': '538766', 'id': 'f51fcd9e-5e69-4521-b7e2-3ccd49de16a1', 'longitude': '103.89386', 'latitude': '1.37248'}
-201 {'name': 'McDonald’s IMM', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '2 Jurong East St 21 #01-18 IMM Building, Singapore 609601', 'postalCode': '609601', 'id': '693aa606-c945-4d8e-9953-cb45f067eb87', 'longitude': '103.74722', 'latitude': '1.33483'}
-201 {'name': 'McDonald’s JCube', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '2 Jurong East Central 1 #01-09 JCube, Singapore 609731', 'postalCode': '609731', 'id': '76b7fb8f-4ca4-4d73-8c5b-a378cacda887', 'longitude': '103.74053', 'latitude': '1.33333'}
-201 {'name': 'McDonald’s JEM', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '50 Jurong Gateway Road #01-63, #02-55 JEM<sup>®</sup>, Singapore 608549', 'postalCode': '608549', 'id': '40c3d4d3-d9e1-430f-bd42-38944903097e', 'longitude': '103.74372', 'latitude': '1.33407'}
-201 {'name': 'McDonald’s Jurong Bowl', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Yuan Ching Road Jurong Family Bowl, Singapore 618640', 'postalCode': '618640', 'id': '38c330df-e7a5-4d05-962a-e31f38ab2099', 'longitude': '103.72455', 'latitude': '1.32591'}
-201 {'name': 'McDonald’s Jurong Central Park', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '291 Boon Lay Way, Singapore 649849', 'postalCode': '649849', 'id': '237c82f0-dac8-4a44-bbf4-e65378a8f9c9', 'longitude': '103.70866', 'latitude': '1.33917'}
-201 {'name': 'McDonald’s Jurong East 24', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 256 Jurong East Street 24 #01-381, Singapore 600256', 'postalCode': '600256', 'id': '838f7a68-dbe8-4449-ae53-79dacd056186', 'longitude': '103.73826', 'latitude': '1.34417'}
-201 {'name': 'McDonald’s Jurong Green CC', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '6A Jurong West Avenue 1, Singapore 649520', 'postalCode': '649520', 'id': '38686b28-b744-487a-b46e-3efb080634b7', 'longitude': '103.72504', 'latitude': '1.35065'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Jurong Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Jurong West Central 2 #01-31 Jurong Point, Singapore 648886', 'postalCode': '648886', 'id': '78db20f3-50bb-4435-a0ba-fc1f25b28c61', 'longitude': '103.70637', 'latitude': '1.33939'}
-201 {'name': 'McDonald’s Jurong Spring CC (JSC2)', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': ', Singapore 649296', 'postalCode': '649296', 'id': '510342fe-2875-4dd9-bec3-1ed3caee1f98', 'longitude': '103.71783', 'latitude': '1.34860'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 500 {'error': 'Error getting geocode data'}
-Retry 3 500 {'error': 'Error getting geocode data'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Keat Hong', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '818 Choa Chu Kang Avenue 1#01-02, Singapore 680818', 'postalCode': '680818', 'id': 'de165f52-d60d-4a27-a6e7-ccc240855c97', 'longitude': '103.74883', 'latitude': '1.37803'}
-201 {'name': 'McDonald’s Khatib', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '846 Yishun Ring Road #01-3669, Singapore 760846', 'postalCode': '760846', 'id': 'fb33ac4d-b288-4f11-8e97-336ffedb6103', 'longitude': '103.83464', 'latitude': '1.41679'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s LeQuest', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '4 Bukit Batok Street 41 #01-42 to #01-45, #01-50 to #01-54, Singapore 657991', 'postalCode': '657991', 'id': '306f586f-c69b-4c02-80d4-86137cd8fd90', 'longitude': '103.74113', 'latitude': '1.35594'}
-201 {'name': 'McDonald’s LIDO', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '350 Orchard Road #05-12/13 and #05/21 Shaw House,, Singapore 238868', 'postalCode': '238868', 'id': 'cb4b500c-3b93-4134-803c-b7c1671a0467', 'longitude': '103.83157', 'latitude': '1.30571'}
-201 {'name': 'McDonald’s Loyang Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Block 258 Pasir Ris Street 21 #01-25, Loyang Point, Singapore 510258', 'postalCode': '510258', 'id': '76d740a0-c09c-4763-9d61-d27e1d3515a6', 'longitude': '103.96464', 'latitude': '1.36707'}
-201 {'name': 'McDonald’s Lucky Plaza', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '304 Orchard Road #B1-19 to #B1-24, #B1-44 to #B1-46 Lucky Plaza, Singapore 238863', 'postalCode': '238863', 'id': 'c3de99b2-df2e-4c8a-aa7a-9c719ae0196d', 'longitude': '103.83394', 'latitude': '1.30449'}
-201 {'name': 'McDonald’s Marina Square', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '6 Raffles Boulevard #02-156/ #02-157/ #02-166 Marina Square, Singapore 039594', 'postalCode': '039594', 'id': '1a07685f-5851-411c-9775-10be31566393', 'longitude': '103.85750', 'latitude': '1.29130'}
-201 {'name': 'McDonald’s Marine Cove', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Marine Cove,1000 East Coast Parkway East Coast Park #01-05, Singapore 449876', 'postalCode': '449876', 'id': 'ca778384-ba8a-4823-b788-ec0ba85dccfa', 'longitude': '103.91415', 'latitude': '1.30200'}
-201 {'name': 'McDonald’s Metropolis', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '9 Buona Vista Drive, Tower 1, #01-08, The Metropolis, Singapore 138588', 'postalCode': '138588', 'id': 'cf07e0b4-b501-4eae-865a-29d827dcabe6', 'longitude': '103.79109', 'latitude': '1.30619'}
-201 {'name': 'McDonald’s Nanyang Technological University', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '76 Nanyang Drive, Block N2.1 #01-08 Nanyang Technological University, Singapore 637331', 'postalCode': '637331', 'id': '9fe8aa7f-feda-4657-958c-9ec6473b046a', 'longitude': '103.68003', 'latitude': '1.34713'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s NEX', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '23 Serangoon Central #B2-05/06/07/08 NEX, Singapore 556083', 'postalCode': '556083', 'id': 'fbeeedfb-0b16-42f1-a1d0-7ba013e4c15a', 'longitude': '103.87262', 'latitude': '1.35053'}
-201 {'name': 'McDonald’s Northpoint', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '930 Yishun Avenue 2 #01-12/13 Northpoint City North Wing, Singapore 769098', 'postalCode': '769098', 'id': 'a567072f-006c-4cfd-b455-c8ba263da720', 'longitude': '103.83603', 'latitude': '1.42909'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Parklane', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '35 Selegie Road #B1-38 Parklane Shopping Mall, Singapore 188307', 'postalCode': '188307', 'id': '07d5af2e-18f7-4d85-9ee7-bb7263a7fded', 'longitude': '103.84944', 'latitude': '1.30065'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Parkway Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Marine Parade Central #01-01 Parkway Centre, Singapore 449408', 'postalCode': '449408', 'id': 'a8d0ac41-c9e4-4b5d-a30f-6b1015223a42', 'longitude': '103.90562', 'latitude': '1.30145'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 201 {'name': 'McDonald’s Pasir Ris Central', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Pasir Ris Central Street 3 #01-28/29 White Sands, Singapore 518457', 'postalCode': '518457', 'id': '56e82e46-62c9-4531-948e-47f1a06278b2', 'longitude': '103.94992', 'latitude': '1.37243'}
-201 {'name': 'McDonald’s Pasir Ris Sports Complex', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '120 Pasir Ris Central #01-12 Pasir Ris Sports and Recreation Centre, Singapore 519640', 'postalCode': '519640', 'id': '2ec0377f-9145-4c11-a18e-3c1c259ec7c6', 'longitude': '103.95185', 'latitude': '1.37406'}
-201 {'name': 'McDonald’s Paya Lebar Square', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '60 Paya Lebar Road, Provisional Unit #01-68/69/74/75/76/K3 Paya Lebar Square, Singapore 409051', 'postalCode': '409051', 'id': '79138c4d-65d6-4603-8676-777de3c6a1ff', 'longitude': '103.89258', 'latitude': '1.31881'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s People’s Park', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': "1 Park Road #01-69 to #01-75 People's Park Complex, Singapore 059108", 'postalCode': '059108', 'id': '488d6aaa-8ed0-4420-a0ec-59a2ff8f68f7', 'longitude': '103.84278', 'latitude': '1.28425'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Pioneer Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '638 Jurong West Street 61 #01-01/02 Pioneer Mall, Singapore 640638', 'postalCode': '640638', 'id': 'eae559ed-1070-43fd-81f7-f2f949efd4ef', 'longitude': '103.69724', 'latitude': '1.34167'}
-201 {'name': 'McDonald’s Plaza Singapura', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '68 Orchard Road #B1-23/24 Plaza Singapura, Singapore 238839', 'postalCode': '238839', 'id': '92934af5-3724-4bad-a6a7-819004d364a7', 'longitude': '103.84500', 'latitude': '1.30046'}
-201 {'name': 'McDonald’s Potong Pasir', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '148 Potong Pasir Ave 1 #01-43, Singapore 350148', 'postalCode': '350148', 'id': '5f6c001f-a02e-4f9b-a87a-af3e0752b650', 'longitude': '103.86777', 'latitude': '1.33235'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s PSA', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '460 Alexandra Road #01-25 PSA Building, Singapore 119963', 'postalCode': '119963', 'id': '4373c67d-3c52-4607-868a-4f4ea56437f5', 'longitude': '103.80167', 'latitude': '1.27394'}
-201 {'name': 'McDonald’s Punggol 21 Community Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '80 Punggol Field #01-02, Singapore 828815', 'postalCode': '828815', 'id': '71e919a7-decb-4053-a676-965b34ca1f0e', 'longitude': '103.91343', 'latitude': '1.39363'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Punggol North Shore', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 407 Northshore Drive unit no #02-27 to #02-30 and #02-31 Northshore Plaza 1, Singapore 820407', 'postalCode': '820407', 'id': '438415a7-299a-4cb4-b1af-a1c90d9d2dc4', 'longitude': '103.90204', 'latitude': '1.41680'}
-201 {'name': 'McDonald’s Punggol Oasis', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '681 Punggol Drive, #02-37/38 Oasis Terraces, Singapore 820681', 'postalCode': '820681', 'id': '17bdc55b-5585-4326-9fb4-8e6df2c7636b', 'longitude': '103.91305', 'latitude': '1.40295'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Queensway', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '#01-580 Ridout Tea Garden, Singapore 149066', 'postalCode': '149066', 'id': '170f5f11-632c-4c58-8e76-d3498eeb22b4', 'longitude': '103.80211', 'latitude': '1.30406'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Queensway Shopping Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Queensway #02-46 Queensway Shopping Centre, Singapore 149053', 'postalCode': '149053', 'id': 'fbf842b5-0a3f-4c94-b4b1-9f6f6015b086', 'longitude': '103.80339', 'latitude': '1.28762'}
-201 {'name': 'McDonald’s Raffles City', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '252 North Bridge Road #01-49/50/51 Raffles City Shopping Centre, Singapore 179103', 'postalCode': '179103', 'id': '13070ca7-97f2-4ae3-b11c-cdf8537020cc', 'longitude': '103.85324', 'latitude': '1.29400'}
-201 {'name': 'McDonald’s Regal', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '3501 Jalan Bukit Merah #01-01 Regal Theatre, Singapore 159460', 'postalCode': '159460', 'id': '6aaa1052-9823-483d-bee9-3447cf3aa255', 'longitude': '103.81827', 'latitude': '1.28348'}
-201 {'name': 'McDonald’s Resorts World Sentosa', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '8 Sentosa Gateway, #B1-211, 212, 213, 214, Resorts World Sentosa, Singapore 098138', 'postalCode': '098138', 'id': '04cfedf4-e2fa-4895-9eed-cfd20c3882e1', 'longitude': '103.82009', 'latitude': '1.25641'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 201 {'name': 'McDonald’s Rivervale Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '11 Rivervale Crescent #01-27 Rivervale Mall, Singapore 545082', 'postalCode': '545082', 'id': '8b54255e-5485-428b-809f-b61f83073551', 'longitude': '103.90464', 'latitude': '1.39230'}
-201 {'name': 'McDonald’s SAFRA Punggol', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '9 Sentul Crescent, #03-05, Singapore 828654', 'postalCode': '828654', 'id': '8395f46d-2a9d-4f0c-bd2a-c458668efe1a', 'longitude': '103.90607', 'latitude': '1.41019'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s SAFRA Toa Payoh', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '293 Toa Payoh Lorong 6 #01-02 SAFRA Clubhouse, Singapore 319387', 'postalCode': '319387', 'id': '0ce69b89-1883-4b5b-a0c7-06dd2038b306', 'longitude': '103.85440', 'latitude': '1.32981'}
-201 {'name': 'McDonald’s SAFRA Yishun', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '60 Yishun Avenue 4 #01-11, Singapore 769027', 'postalCode': '769027', 'id': '0d7579cf-f2b9-432d-bc8f-b22019b387c0', 'longitude': '103.84090', 'latitude': '1.42430'}
-201 {'name': 'McDonald’s SCAPE', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '2 Orchard Link #02-43 *SCAPE, Singapore 237978', 'postalCode': '237978', 'id': '0a9a6a6a-0a99-4c3d-a0cd-5a8e4d274d32', 'longitude': '103.83578', 'latitude': '1.30106'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 201 {'name': 'McDonald’s Seletar Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '33 Sengkang West Ave #01-04/05/06 Seletar Mall, Singapore 797653', 'postalCode': '797653', 'id': 'af78a431-1504-4c56-8d50-67727d87d786', 'longitude': '103.87627', 'latitude': '1.39132'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Sengkang Rivervale Plaza', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '118 Rivervale Drive #01-32, Singapore 540118', 'postalCode': '540118', 'id': '02bb14af-fab6-45e9-85d1-010fa055a904', 'longitude': '103.90199', 'latitude': '1.38550'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Sengkang Sports Complex', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '57 Anchorvale Road #02-03 Sengkang Sport &amp; Recreation Centre, Singapore 544964', 'postalCode': '544964', 'id': '7b0c1d44-3bef-4b29-b4e6-9a54437a0cfe', 'longitude': '103.88685', 'latitude': '1.39682'}
-201 {'name': 'McDonald’s Serangoon Avenue 3', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '267 Serangoon Ave 3 #01-37, Singapore 550267', 'postalCode': '550267', 'id': '11896d4a-a83d-4abf-a73d-ccb8a8a1b9be', 'longitude': '103.87095', 'latitude': '1.35317'}
-201 {'name': 'McDonald’s Shell Havelock', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '548 Havelock Road, Singapore 169637', 'postalCode': '169637', 'id': 'f9ef98f8-12f8-4015-b63c-b22feabaef69', 'longitude': '103.83244', 'latitude': '1.28980'}
-201 {'name': 'McDonald’s Shell Hougang', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '600 Hougang Avenue 3, #01-01, Singapore 538846', 'postalCode': '538846', 'id': 'e4b21ec5-f665-44d1-84b9-f74b4526619d', 'longitude': '103.89015', 'latitude': '1.34932'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 500 {'error': 'Error getting geocode data'}
-Retry 2 500 {'error': 'Error getting geocode data'}
-Retry 3 500 {'error': 'Error getting geocode data'}
-201 {'name': 'McDonald’s Siglap', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '55 Siglap Road #01-07, #01-08 &amp; #01-09 Siglap Centre, Singapore 455871', 'postalCode': '455871', 'id': 'a3d6682b-c038-4f14-b72e-224378cb8568', 'longitude': '103.92325', 'latitude': '1.31258'}
-201 {'name': 'McDonald’s Singapore Polytechnic', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '500 Dover Road #01-13 Teaching Block 16 Singapore Polytechnic, Singapore 139651', 'postalCode': '139651', 'id': '11377526-2cf6-419a-b146-0133f150c273', 'longitude': '103.77925', 'latitude': '1.30702'}
-201 {'name': 'McDonald’s SpringLeaf Tower', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '3 Anson Road #01-03 Springleaf Tower, Singapore 079909', 'postalCode': '079909', 'id': '25bbfaf9-e6b6-4929-bec0-3692bd47031f', 'longitude': '103.84625', 'latitude': '1.27508'}
-201 {'name': 'McDonald’s Sun Plaza', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '30,Sembawang Drive #01-16 /17, Singapore 757713', 'postalCode': '757713', 'id': '36f6e6eb-fad7-4394-80d3-0bcea389d49e', 'longitude': '103.81948', 'latitude': '1.44815'}
-201 {'name': 'McDonald’s Suntec City', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '3 Temasek Boulevard #02-732/733 Suntec City Mall, Singapore 038983', 'postalCode': '038983', 'id': '0bb4ac53-7e1d-4fe8-bc2a-d1a231fc9075', 'longitude': '103.85938', 'latitude': '1.29509'}
-201 {'name': 'McDonald’s Tampines', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '513 Tampines Central 1 #01-150, Singapore 521512', 'postalCode': '521512', 'id': '547108d5-36f9-4587-9a02-ea30feb05bc3', 'longitude': '103.94395', 'latitude': '1.35453'}
-201 {'name': 'McDonald’s Tampines (Kiosk)', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 513 Tampines Central 1 #01-150, Singapore 521512', 'postalCode': '521512', 'id': '35e25337-a15b-4a36-a1f0-38a52d5aea4f', 'longitude': '103.94395', 'latitude': '1.35453'}
-201 {'name': 'McDonald’s Tampines East CC', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '10 Tampines St 23 #01-01 Tampines East Community Centre, Singapore 529341', 'postalCode': '529341', 'id': '4b126c94-7ccf-4a66-9f18-43e8b001b927', 'longitude': '103.95462', 'latitude': '1.35329'}
-201 {'name': 'McDonald’s Tampines Green View', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 614 Tampines North Drive 1, #01-09, Singapore 520614', 'postalCode': '520614', 'id': 'ba0a47ae-4c55-422b-934d-6a1dd510a55e', 'longitude': '103.93652', 'latitude': '1.36560'}
-201 {'name': 'McDonald’s Tampines Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '4 Tampines Central 5 #01-33 Tampines Mall, Singapore 529510', 'postalCode': '529510', 'id': '281af935-af9d-4270-9ecc-1ce3027cccd3', 'longitude': '103.94468', 'latitude': '1.35250'}
-201 {'name': 'McDonald’s Tampines Neighborhood 3', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '5 Tampines Street 32 #01-01, Singapore 529284', 'postalCode': '529284', 'id': '91118c00-7e99-41e3-bc68-85a4056bd7b2', 'longitude': '103.95991', 'latitude': '1.35437'}
-201 {'name': 'McDonald’s Tampines West CC', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '5 Tampines Avenue 3 #01-01, Singapore 529705', 'postalCode': '529705', 'id': '0c7bb491-8609-426b-99f7-348cd45b8c13', 'longitude': '103.93563', 'latitude': '1.34887'}
-201 {'name': 'McDonald’s Temasek Polytechnic', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '21 Tampines Avenue1 30B-01-02 Temasek Polytechnic, Singapore 529757', 'postalCode': '529757', 'id': '5e8c7245-a32f-471c-b6ed-73d19555375d', 'longitude': '103.93263', 'latitude': '1.34595'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Tiong Bahru Plaza', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '302 Tiong Bahru Road #01-145/146/147 Tiong Bahru Plaza, Singapore 168732', 'postalCode': '168732', 'id': 'ee239998-2357-4ff5-83cd-3e460801a885', 'longitude': '103.82796', 'latitude': '1.28625'}
-201 {'name': 'McDonald’s Toa Payoh Central', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '600 Toa Payoh #01-02 (formerly known as 600 Lor 4 Toa Payoh #01-02), Singapore 319515', 'postalCode': '319515', 'id': 'b559cbc8-6d4b-4b43-930d-15902c0c6c71', 'longitude': '103.85098', 'latitude': '1.33404'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Toa Payoh HDB Center', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '490, Lorong 6 Toa Payoh #01-11, Singapore 310490', 'postalCode': '310490', 'id': '5fb993eb-49a9-46f0-8e24-4e1270ce9203', 'longitude': '103.84827', 'latitude': '1.33257'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Toa Payoh Lorong 1', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '109 Toa Payoh Lorong 1 #01-318, Singapore 310109', 'postalCode': '310109', 'id': '12241e31-dddf-457e-b599-62e4c12db835', 'longitude': '103.84624', 'latitude': '1.34123'}
-201 {'name': 'McDonald’s TradeHub 21', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '28 Boon Lay Way #01-173/174, Singapore 609971', 'postalCode': '609971', 'id': 'f43c5486-bb81-4082-91ba-51f5593bc7df', 'longitude': '103.75167', 'latitude': '1.32823'}
-201 {'name': 'McDonald’s United Square', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '101 Thomson Road #B1-11/12 United Square Shopping Mall, Singapore 307591', 'postalCode': '307591', 'id': '2aae1c02-9732-4040-9558-e871675f87d8', 'longitude': '103.84356', 'latitude': '1.31741'}
-201 {'name': 'McDonald’s V Hotel', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '70 Jellicoe Road #01-20 V Hotel Lavender, Singapore 208767', 'postalCode': '208767', 'id': '6f0c36a0-4a72-40d5-bc01-3db33b7e748c', 'longitude': '103.86274', 'latitude': '1.30783'}
-201 {'name': 'McDonald’s Vista Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': 'Blk 548 Woodlands Drive 44 #01-20, Singapore 730548', 'postalCode': '730548', 'id': '7a23cbaa-8c27-4d42-99d7-35811b8f20e5', 'longitude': '103.79410', 'latitude': '1.43100'}
-201 {'name': 'McDonald’s VivoCity', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '1 Harbour Front Walk #B2-40/41, Vivocity, Singapore 098585', 'postalCode': '098585', 'id': 'f07f67cc-222a-43d0-a62f-4de8b03be69d', 'longitude': '103.82217', 'latitude': '1.26421'}
-201 {'name': 'McDonald’s Waterway Point', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '83 Punggol Central, #B2-07 West Wing, Waterway Point, Singapore 828761', 'postalCode': '828761', 'id': '7b165c18-7944-4f47-a1a2-6c43eabae2e9', 'longitude': '103.90243', 'latitude': '1.40659'}
-201 {'name': 'McDonald’s West Coast Park', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '71 West Coast Highway, Singapore 126844', 'postalCode': '126844', 'id': '8bb66222-c34a-4f4a-b14b-03467cbe4a17', 'longitude': '103.76330', 'latitude': '1.29755'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s WoodGrove', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '30 Woodlands Avenue 1, #01-06 The Woodgrove, Singapore 739065', 'postalCode': '739065', 'id': 'dde43e39-f3e9-4bbf-8ef9-3eecca67d62f', 'longitude': '103.78129', 'latitude': '1.42938'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Woodlands Civic Centre', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '900 South Woodlands Drive #01-01 Woodlands Civic Centre, Singapore 730900', 'postalCode': '730900', 'id': '809a96b8-415c-4b38-97fc-3ea81a76bc30', 'longitude': '103.78594', 'latitude': '1.43618'}
-500 {'error': 'Error getting geocode data'}
-Retry 1 201 {'name': 'McDonald’s Woodlands Mart', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '768 Woodlands Ave 6 #01-01, Singapore 730768', 'postalCode': '730768', 'id': 'd856ea3b-024d-4122-bf50-0f5d134b7b02', 'longitude': '103.79817', 'latitude': '1.44572'}
-201 {'name': 'McDonald’s Yishun', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '369 Sembawang Road #01-01, Singapore 758382', 'postalCode': '758382', 'id': 'fc218d7b-3581-4d3b-a208-c96227b610c4', 'longitude': '103.82642', 'latitude': '1.42758'}
-201 {'name': 'McDonald’s Yishun Blossom Spring', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '461 Yishun Avenue 6 Blossom Spring Yishun #01-03, Singapore 760461', 'postalCode': '760461', 'id': 'c104057a-da51-473f-801d-53272d2d574c', 'longitude': '103.84997', 'latitude': '1.42841'}
-201 {'name': 'McDonald’s Yishun Ring Road', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '293 Yishun Street 22 #01-237, Singapore 760293', 'postalCode': '760293', 'id': '5b6007bb-9d6a-4833-8817-19d904507b28', 'longitude': '103.83820', 'latitude': '1.43625'}
-201 {'name': 'McDonald’s Zhongshan Mall', 'companyId': 'ad5d5c7e-1d47-450a-93f3-7f99af5764a0', 'address': '20 Ah Hood Road #01-16 Singapore, Singapore 329984', 'postalCode': '329984', 'id': 'fb710da0-2631-4e26-a073-c8d18641ecdc', 'longitude': '103.84648', 'latitude': '1.32696'}
+500 McDonald’s Alocassia {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Alocassia {'name': '-MqFaihSYQAcmFq3aRh0'}
+201 McDonald’s Ang Mo Kio {'name': '-MqFajc_zZDGlfzUrWsp'}
+201 McDonald’s Ang Mo Kio 4 {'name': '-MqFakgz3_A0w88ruLWD'}
+201 McDonald’s Ang Mo Kio Ave 10 {'name': '-MqFalnz4gU-LbRT6l-a'}
+201 McDonald’s Ang Mo Kio Park {'name': '-MqFan8D_esuc0rFJTd8'}
+201 McDonald’s Aperia Mall {'name': '-MqFaoJ02eKtwZ_QrFyV'}
+201 McDonald’s Beauty World {'name': '-MqFapfSnWK5vH1CPS9t'}
+201 McDonald’s Bedok Mall {'name': '-MqFaqi7Y-uTxuVO1nwj'}
+500 McDonald’s Bedok North {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Bedok North {'name': '-MqFasiFG6PKLgKwSov4'}
+201 McDonald’s Bedok Reservoir {'name': '-MqFatrfudmssVQxVMZz'}
+201 McDonald’s Bedok Reservoir Park {'name': '-MqFaupzi0be6Uemr_fH'}
+500 McDonald’s Bendemeer {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Bendemeer {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Bendemeer {'name': '-MqFayHF9Ky7s-xTwRAJ'}
+500 McDonald’s Bishan Junction 8 {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Bishan Junction 8 {'name': '-MqFb-IdmOB7_vMDUorE'}
+500 McDonald’s Bishan Park {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Bishan Park {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Bishan Park {'name': '-MqFb37-kT8JEmt0Eg3N'}
+201 McDonald’s Boat Quay {'name': '-MqFb4FafYHF0I0SOhFe'}
+500 McDonald’s Buangkok Square {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Buangkok Square {'name': '-MqFb6JbOxbopq3kdjWZ'}
+500 McDonald’s Bugis Junction {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Bugis Junction {'name': '-MqFb8gM-FJnG3hGcSAM'}
+500 McDonald’s Bugis Village {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Bugis Village {'name': '-MqFbAh6jYKFD_q6lCLh'}
+500 McDonald’s Bukit Batok {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Bukit Batok {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s Bukit Batok {'error': 'Error getting geocode data'}
+201 Retry 3 McDonald’s Bukit Batok {'name': '-MqFbFcLg6jihyCgsWYU'}
+500 McDonald’s Bukit Batok West {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Bukit Batok West {'name': '-MqFbI9hSeR1IfEu_hMR'}
+201 McDonald’s Bukit Gombak {'name': '-MqFbJ5muXgyKSgHiZB1'}
+201 McDonald’s Bukit Panjang Plaza {'name': '-MqFbKFU7UQeBkUO00B8'}
+201 McDonald’s Canberra {'name': '-MqFbLEQcqy0gMgFcUnl'}
+201 McDonald’s Causeway Point {'name': '-MqFbM8uT46Z0WUmtX6q'}
+201 McDonald’s Changi City Point {'name': '-MqFbNVkwFtMMSqNAq1k'}
+500 McDonald’s Chinatown Point {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Chinatown Point {'name': '-MqFbPhJWEcukeZnnCHk'}
+201 McDonald’s Choa Chu Kang  62 {'name': '-MqFbQk8zlPrKoIiVPzN'}
+500 McDonald’s Choa Chu Kang 4 {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Choa Chu Kang 4 {'name': '-MqFbT6RvxRlU93u4_uD'}
+201 McDonald’s Choa Chu Kang 4 (Kiosk) {'name': '-MqFbUH44iJX24hUkni6'}
+201 McDonald’s Chua Chu Kang CC {'name': '-MqFbVKG6bOxULwZtnoY'}
+500 McDonald’s City Square Mall {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s City Square Mall {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s City Square Mall {'error': 'Error getting geocode data'}
+500 Retry 3 McDonald’s City Square Mall {'error': 'Error getting geocode data'}
+201 Retry 4 McDonald’s City Square Mall {'name': '-MqFb_rcbGxuzmryKGAh'}
+201 McDonald’s Clementi Avenue 3 {'name': '-MqFbb-eGsO3J2pLNqwK'}
+201 McDonald’s Clementi Mall {'name': '-MqFbc7t6splhna0esJe'}
+201 McDonald’s Clifford Centre {'name': '-MqFbdWBG-uEzP2KLO1v'}
+201 McDonald’s Compass 1 {'name': '-MqFbejdSjTC5csOVFoc'}
+201 McDonald’s Downtown East {'name': '-MqFbfeJcMJf-hDTrb1s'}
+201 McDonald’s East Point Mall {'name': '-MqFbh3GOgbpQcjGcYV2'}
+201 McDonald’s Elias Community Centre {'name': '-MqFbiMAw-wLnn2na6M-'}
+201 McDonald’s Fairprice Hub {'name': '-MqFbjchUy1blRYIuIWG'}
+201 McDonald’s Fajar {'name': '-MqFbka50h18EmvJBbq-'}
+500 McDonald’s Farrer Road {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Farrer Road {'name': '-MqFbnEIQDud1N0wZoOb'}
+201 McDonald’s Forum Galleria {'name': '-MqFboZfFdTz3du23Xes'}
+500 McDonald’s Funan Center {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Funan Center {'name': '-MqFbqgdteDAH6SV4iZu'}
+201 McDonald’s Gardens By The Bay {'name': '-MqFbralN_1vvyU3O-gU'}
+201 McDonald’s Gek Poh {'name': '-MqFbstQbZaUFBO1EDIG'}
+201 McDonald’s Geylang East Central {'name': '-MqFbtnBmbToPecIXGZv'}
+201 McDonald’s Great World City {'name': '-MqFbv3MDJp5bVRTTbeA'}
+201 McDonald’s Greenridge Shopping Centre {'name': '-MqFbw2dAI3UA63HeGTR'}
+500 McDonald’s HarbourFront Centre {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s HarbourFront Centre {'name': '-MqFbyFSTNsiIlbYZX5-'}
+500 McDonald’s Hillion Mall {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Hillion Mall {'name': '-MqFc-XRou6Ql_9dipJh'}
+500 McDonald’s Hougang {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Hougang {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s Hougang {'error': 'Error getting geocode data'}
+201 Retry 3 McDonald’s Hougang {'name': '-MqFc402PvUF4hcbaQyZ'}
+500 McDonald’s Hougang 1 {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Hougang 1 {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Hougang 1 {'name': '-MqFc7fIK6Y6HaZmi5IT'}
+201 McDonald’s Hougang 8 {'name': '-MqFc8kKkvhSFuabyRZ3'}
+201 McDonald’s Hougang Mall {'name': '-MqFc9oYKRopeVrw8Flc'}
+201 McDonald’s IMM {'name': '-MqFcAsMvBaRg8-JYATa'}
+500 McDonald’s JCube {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s JCube {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s JCube {'name': '-MqFcE7DolEJUuO3nZWi'}
+500 McDonald’s JEM {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s JEM {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s JEM {'name': '-MqFcHTyjSm2N008yJ9b'}
+500 McDonald’s Jurong Bowl {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Jurong Bowl {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s Jurong Bowl {'error': 'Error getting geocode data'}
+201 Retry 3 McDonald’s Jurong Bowl {'name': '-MqFcLsjI2rb94ODvuhS'}
+500 McDonald’s Jurong Central Park {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Jurong Central Park {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Jurong Central Park {'name': '-MqFcPfpa0qg3NNd2Isu'}
+201 McDonald’s Jurong East 24 {'name': '-MqFcQk2_DxuuD9_6BQG'}
+201 McDonald’s Jurong Green CC {'name': '-MqFcRmkWZVMaRnC5kW1'}
+201 McDonald’s Jurong Point {'name': '-MqFcSgZdGg2OBwZtKrp'}
+201 McDonald’s Jurong Spring CC (JSC2) {'name': '-MqFcU29Al9fXqv8xKEG'}
+500 McDonald’s Kallang {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Kallang {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Kallang {'name': '-MqFcXVT3okZbQcRdHEe'}
+500 McDonald’s Keat Hong {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Keat Hong {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Keat Hong {'name': '-MqFcaDuuyTsrrf4H5op'}
+201 McDonald’s Khatib {'name': '-MqFcbXi0jhvPE0KvPyU'}
+500 McDonald’s LeQuest {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s LeQuest {'name': '-MqFcdsKm0soUsmgLr2I'}
+500 McDonald’s LIDO {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s LIDO {'name': '-MqFcgKV3YtHw26IfxHf'}
+201 McDonald’s Loyang Point {'name': '-MqFchfWmUypDjUaW1bd'}
+201 McDonald’s Lucky Plaza {'name': '-MqFcifcccoiUdaKKP3u'}
+201 McDonald’s Marina Square {'name': '-MqFcj_q-Nlk6BcW32Vd'}
+201 McDonald’s Marine Cove {'name': '-MqFcknW1KWsuJoGtsYO'}
+201 McDonald’s Metropolis {'name': '-MqFcm74ytFDjUw8GJr0'}
+201 McDonald’s Nanyang Technological University {'name': '-MqFcnUCc3evJ49ZpVBF'}
+500 McDonald’s NEX {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s NEX {'name': '-MqFcq5SQHpJFOTagkai'}
+201 McDonald’s Northpoint {'name': '-MqFcrP2LkjcPUCN5TAY'}
+500 McDonald’s Parklane {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Parklane {'name': '-MqFctktAW4MjAkfYHgU'}
+201 McDonald’s Parkway Centre {'name': '-MqFcv4NqDDAPyLrg8-d'}
+500 McDonald’s Pasir Ris Central {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Pasir Ris Central {'name': '-MqFcxEKCokBSdzJ8SQV'}
+500 McDonald’s Pasir Ris Sports Complex {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Pasir Ris Sports Complex {'name': '-MqFczH7Ecg9fLrzk3FA'}
+201 McDonald’s Paya Lebar Square {'name': '-MqFd-PECTvBo03V51gO'}
+500 McDonald’s People’s Park {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s People’s Park {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s People’s Park {'error': 'Error getting geocode data'}
+500 Retry 3 McDonald’s People’s Park {'error': 'Error getting geocode data'}
+500 Retry 4 McDonald’s People’s Park {'error': 'Error getting geocode data'}
+500 Retry 5 McDonald’s People’s Park {'error': 'Error getting geocode data'}
+500 McDonald’s Pioneer Mall {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Pioneer Mall {'name': '-MqFd8CzUuqqS-x67v_e'}
+201 McDonald’s Plaza Singapura {'name': '-MqFd9QawgbFfKI5hVjz'}
+201 McDonald’s Potong Pasir {'name': '-MqFdAaq4fnR8BuG-2r0'}
+500 McDonald’s PSA {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s PSA {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s PSA {'name': '-MqFdE0wE64PW5iYQGkG'}
+500 McDonald’s Punggol 21 Community Centre {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Punggol 21 Community Centre {'name': '-MqFdFyZdLP2EQy7zjrI'}
+201 McDonald’s Punggol North Shore {'name': '-MqFdH0qkvwRsk6CCCd-'}
+201 McDonald’s Punggol Oasis {'name': '-MqFdI9W6WNrdlc30k1W'}
+201 McDonald’s Queensway {'name': '-MqFdJBoLJVwgt_22UIy'}
+500 McDonald’s Queensway Shopping Centre {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Queensway Shopping Centre {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s Queensway Shopping Centre {'error': 'Error getting geocode data'}
+500 Retry 3 McDonald’s Queensway Shopping Centre {'error': 'Error getting geocode data'}
+201 Retry 4 McDonald’s Queensway Shopping Centre {'name': '-MqFdOs4yFzf73E79E20'}
+500 McDonald’s Raffles City {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Raffles City {'name': '-MqFdQw5nhEF89iLbgZ-'}
+500 McDonald’s Regal {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Regal {'name': '-MqFdTSrlS51mI1D3tdc'}
+500 McDonald’s Resorts World Sentosa {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Resorts World Sentosa {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Resorts World Sentosa {'name': '-MqFdXKNsi8KL_h1oqAg'}
+201 McDonald’s Rivervale Mall {'name': '-MqFdYIrwOTTSS64zLiJ'}
+201 McDonald’s SAFRA Punggol {'name': '-MqFdZKcPR7d4AeNugFq'}
+500 McDonald’s SAFRA Toa Payoh {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s SAFRA Toa Payoh {'name': '-MqFdaZ2y72MviFibUEi'}
+500 McDonald’s SAFRA Yishun {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s SAFRA Yishun {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s SAFRA Yishun {'error': 'Error getting geocode data'}
+201 Retry 3 McDonald’s SAFRA Yishun {'name': '-MqFdfIpQ3pY3bWAGPIn'}
+201 McDonald’s SCAPE {'name': '-MqFdgHXxQ8arjb4D4Qc'}
+201 McDonald’s Seletar Mall {'name': '-MqFdhh7fKLl-jiLzTY5'}
+201 McDonald’s Sengkang Rivervale Plaza {'name': '-MqFdislDi-GUquWl7ed'}
+201 McDonald’s Sengkang Sports Complex {'name': '-MqFdjmoQdQCPMsoiHYa'}
+201 McDonald’s Serangoon Avenue 3 {'name': '-MqFdl1pj_ZRx3T4mcHQ'}
+201 McDonald’s Shell Havelock {'name': '-MqFdmBI2wL0fdb786EL'}
+500 McDonald’s Shell Hougang {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Shell Hougang {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Shell Hougang {'name': '-MqFdpSsuJt14IKmDuVD'}
+500 McDonald’s Shell Tampines {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Shell Tampines {'name': '-MqFdroY6L7wc0JkMTJq'}
+500 McDonald’s Siglap {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Siglap {'name': '-MqFdteqXXMfCYZNNE_7'}
+500 McDonald’s Singapore Polytechnic {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Singapore Polytechnic {'name': '-MqFdvgpPmm6MnjCjRqb'}
+201 McDonald’s SpringLeaf Tower {'name': '-MqFdwtlXfFc5DKyt2va'}
+201 McDonald’s Sun Plaza {'name': '-MqFdxrkThYrcq8lb9S8'}
+201 McDonald’s Suntec City {'name': '-MqFdylbF_7u8lSOIXiV'}
+500 McDonald’s Tampines {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Tampines {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s Tampines {'error': 'Error getting geocode data'}
+500 Retry 3 McDonald’s Tampines {'error': 'Error getting geocode data'}
+500 Retry 4 McDonald’s Tampines {'error': 'Error getting geocode data'}
+500 Retry 5 McDonald’s Tampines {'error': 'Error getting geocode data'}
+201 McDonald’s Tampines (Kiosk) {'name': '-MqFe5PZHGx2KvaLgQMt'}
+500 McDonald’s Tampines East CC {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Tampines East CC {'name': '-MqFe7hCyGDShRw06vrN'}
+201 McDonald’s Tampines Green View {'name': '-MqFe8eruapZEw0F1Ccs'}
+201 McDonald’s Tampines Mall {'name': '-MqFe9cBVn_uqfSrTU20'}
+201 McDonald’s Tampines Neighborhood 3 {'name': '-MqFeAY-gZ29rpRft4U-'}
+500 McDonald’s Tampines West CC {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Tampines West CC {'name': '-MqFeCpwJ4YGWLiUE2YU'}
+201 McDonald’s Temasek Polytechnic {'name': '-MqFeDzbxmjvnrfp2n9q'}
+500 McDonald’s Tiong Bahru Plaza {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Tiong Bahru Plaza {'error': 'Error getting geocode data'}
+500 Retry 2 McDonald’s Tiong Bahru Plaza {'error': 'Error getting geocode data'}
+201 Retry 3 McDonald’s Tiong Bahru Plaza {'name': '-MqFeItBfErHRz1_wDkb'}
+201 McDonald’s Toa Payoh Central {'name': '-MqFeJv7nIPEYKI3ZnLD'}
+201 McDonald’s Toa Payoh HDB Center {'name': '-MqFeL3CNDAeYY-WsK2G'}
+500 McDonald’s Toa Payoh Lorong 1 {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Toa Payoh Lorong 1 {'name': '-MqFeNZvRKFMmu6ts0Ou'}
+500 McDonald’s TradeHub 21 {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s TradeHub 21 {'name': '-MqFeQABw7x6hx0ap_hp'}
+201 McDonald’s United Square {'name': '-MqFeRXXVzQ7D95VUULp'}
+201 McDonald’s V Hotel {'name': '-MqFeSVpDEvf_KN2MALW'}
+201 McDonald’s Vista Point {'name': '-MqFeT_BotsHYzJ6TsQP'}
+201 McDonald’s VivoCity {'name': '-MqFeUqlm62y3rD7gOh7'}
+201 McDonald’s Waterway Point {'name': '-MqFeW88gtgWykRySePS'}
+201 McDonald’s West Coast Park {'name': '-MqFeXVZsOGdwTw8dhEn'}
+201 McDonald’s WoodGrove {'name': '-MqFeYXVt0EDcRPM7SJd'}
+500 McDonald’s Woodlands Civic Centre {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Woodlands Civic Centre {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Woodlands Civic Centre {'name': '-MqFeanlxWRXYQkHmjw7'}
+500 McDonald’s Woodlands Mart {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Woodlands Mart {'name': '-MqFecdg3gXCIlDW6IXz'}
+201 McDonald’s Yishun {'name': '-MqFedyXey0-deX_p7IR'}
+500 McDonald’s Yishun Blossom Spring {'error': 'Error getting geocode data'}
+500 Retry 1 McDonald’s Yishun Blossom Spring {'error': 'Error getting geocode data'}
+201 Retry 2 McDonald’s Yishun Blossom Spring {'name': '-MqFehaUyii_LY3VYAob'}
+201 McDonald’s Yishun Ring Road {'name': '-MqFeiicgQwYu1Kw7Xht'}
+500 McDonald’s Zhongshan Mall {'error': 'Error getting geocode data'}
+201 Retry 1 McDonald’s Zhongshan Mall {'name': '-MqFelCX08kIHMohYXaZ'}

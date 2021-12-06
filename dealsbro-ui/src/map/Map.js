@@ -1,8 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import { DEALS, OUTLETS } from '../mockdata';
 import './Map.css';
-import { getOutlets } from '../api/Api';
+import { getOutlets, getDeals } from '../api/Api';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
 
@@ -22,28 +21,25 @@ const MapView = () => {
             zoom: zoom
         });
 
-        getOutlets().then(outlets => {
-            Object.values(outlets).forEach(outlet => {
-                const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
-                    <h3 class="has-text-weight-semibold">${outlet.name}</h3>
-                    <p>${outlet.address}</p>
-                `)
-                new mapboxgl.Marker().setLngLat([outlet['longitude'], outlet['latitude']]).setPopup(popup).addTo(map.current)
+        getDeals().then(deals => {
+            Object.values(deals).forEach(deal => {
+                const companyId = deal['companyId']
+                getOutlets().then(outlets => {
+
+                    Object.values(outlets).filter(x => x['companyId'] === companyId).forEach(outlet => {
+                        const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
+                            <small class="has-text-weight-medium">${outlet.name}</small>
+                            <h3 class="has-text-weight-semibold">${deal.title}</h3>
+                            <p>${deal.description}</p>
+                            <small class="is-italic">${deal.startDT} - ${deal.endDT}</small>
+                        `)
+                        new mapboxgl.Marker().setLngLat([outlet['longitude'], outlet['latitude']]).setPopup(popup).addTo(map.current)
+                    })
+                })
             })
         })
 
 
-        DEALS.forEach(deal => {
-            deal.outlets.forEach(outlet => {
-                const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
-                    <small class="has-text-weight-medium">${OUTLETS[outlet].name}</small>
-                    <h3 class="has-text-weight-semibold">${deal.title}</h3>
-                    <p>${deal.description}</p>
-                    <small class="is-italic">${deal.startDate} - ${deal.endDate}</small>
-                `)
-                new mapboxgl.Marker().setLngLat([OUTLETS[outlet].longitude, OUTLETS[outlet].latitude]).setPopup(popup).addTo(map.current)
-            })
-        })
 
         map.current.addControl(
             new mapboxgl.GeolocateControl({

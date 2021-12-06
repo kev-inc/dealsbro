@@ -1,5 +1,5 @@
 const results = []
-const parent = document.querySelectorAll("body > div.content-wp > div > div.content.row > main > div > div > div.app > div.locator-configurator > div > div > div.locator-suggestions-box > div > div > div > div.locator-location-basic > div")
+const parent = document.querySelectorAll("div > div > div.center-block.no-padding > div.top-description > div > div.col-xs-10.no-padding")
 parent.forEach(child => {
     const obj = {}
     obj['name'] = child.querySelector('strong').innerHTML

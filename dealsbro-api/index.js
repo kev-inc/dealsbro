@@ -2,15 +2,18 @@ import { Router } from 'itty-router'
 import { addNewDeal, getAllDeals, getDeal, updateDeal, deleteDeal } from './api/deals'
 import { getAllOrganisations, addNewOrganisations, getOrganisation, updateOrganisation, deleteOrganisation } from './api/organisations'
 import { getAllOutlets, addNewOutlet, getOutlet, updateOutlet, deleteOutlet } from './api/outlets'
-import { corsHelper } from './cors-helper'
 import { getGeocode } from './api/geocode'
 
 const router = Router()
 
-router.options('*', corsHelper)
+const corsHeaders = {
+    'Access-Control-Allow-Headers': '*',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS',
+}
 
 router.get("/", () => {
-  return new Response("Hello, world! This is the root page of your Worker template.")
+    return new Response("Hello, world! This is the root page of your Worker template.")
 })
 
 router.get("/deals", getAllDeals)
@@ -36,8 +39,15 @@ router.get("/geocode/:postalCode", getGeocode)
 router.all("*", () => new Response("404, not found!", { status: 404 }))
 
 addEventListener('fetch', (e) => {
-  e.respondWith(router.handle(e.request))
+    e.respondWith(handleRequest(e.request))
 })
+
+async function handleRequest(request) {
+    if (request.method === 'OPTIONS') {
+        return new Response("OK", { headers: corsHeaders })
+    }
+    return router.handle(request)
+}
 
 /*
 deal {
