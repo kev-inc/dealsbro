@@ -6,7 +6,7 @@ import random
 url = "https://dealsbro-api.kevc.workers.dev/outlets"
 
 # Opening JSON file
-with open('fourfingers.json') as json_file:
+with open('popeyes.json') as json_file:
     data = json.load(json_file)
     for entry in data:
         x = requests.post(url, json = entry)

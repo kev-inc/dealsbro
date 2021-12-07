@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Popeyes Ang Mo Kio Hub",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "53 Ang Mo Kio Ave 3 #B1-64, AMK Hub, Singapore 569933",
+        "postalCode": "569933"
+    },
+    {
+        "name": "Popeyes Bugis Village",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "229 Victoria Street, Singapore 188023",
+        "postalCode": "188023"
+    },
+    {
+        "name": "Popeyes Fairprice Hub@Joo Koon",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "1 Joo Koon Circle #01 – 50 Fairprice Hub, Singapore 629117",
+        "postalCode": "629117"
+    },
+    {
+        "name": "Popeyes IMM",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "2 Jurong East St 21, #01-31/32, Singapore 609601",
+        "postalCode": "609601"
+    },
+    {
+        "name": "Popeyes Jurong Point",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "1 Jurong West Central 2, #03-48, Singapore 648886",
+        "postalCode": "648886"
+    },
+    {
+        "name": "Popeyes Kallang Wave",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "1 Stadium Place #02-02, Singapore 397628",
+        "postalCode": "397628"
+    },
+    {
+        "name": "Popeyes Northpoint City North Wing",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "#01-15 930 Yishun Ave 2, Singapore 769098",
+        "postalCode": "769098"
+    },
+    {
+        "name": "Popeyes Orchard Exchange",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "437, Orchard Road #B1-19, Singapore 238878",
+        "postalCode": "238878"
+    },
+    {
+        "name": "Popeyes Square 2",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "10, Sinaran Drive Square 2, #01 -04/05, Singapore 307506",
+        "postalCode": "307506"
+    },
+    {
+        "name": "Popeyes Tampines 1",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "10 Tampines Central 1, #03-16B, Singapore 529536",
+        "postalCode": "529536"
+    },
+    {
+        "name": "Popeyes The Cathay",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "2, Handy Road, Cathay #B1-21/22, Singapore 229233",
+        "postalCode": "229233"
+    },
+    {
+        "name": "Popeyes Viva Business Park ",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "750, Chai Chee Road #01-17, Singapore 469000",
+        "postalCode": "469000"
+    },
+    {
+        "name": "Popeyes Waterway Point",
+        "companyId": "-MqFoVs66R2p3nx-LMb-",
+        "address": "83, Punggol Central #02-21, Singapore 828761",
+        "postalCode": "828761"
+    }
+]

@@ -30,8 +30,10 @@ const MapView = () => {
                         const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
                             <small class="has-text-weight-medium">${outlet.name}</small>
                             <h3 class="has-text-weight-semibold">${deal.title}</h3>
+                            <img src="${deal.imgSrc}"/>                            
                             <p>${deal.description}</p>
-                            <small class="is-italic">${deal.startDT} - ${deal.endDT}</small>
+                            <small class="is-italic">${deal.startDT} - ${deal.endDT}</small><br/>
+                            <small><a href="${deal.link}">More Info</a></small>
                         `)
                         new mapboxgl.Marker().setLngLat([outlet['longitude'], outlet['latitude']]).setPopup(popup).addTo(map.current)
                     })

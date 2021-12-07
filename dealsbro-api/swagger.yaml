@@ -246,6 +246,10 @@ definitions:
         type: "string"
       description:
         type: "string"
+      link:
+        type: "string"
+      imgSrc:
+        type: "string"
       companyId:
         type: "string"
       startDT:
