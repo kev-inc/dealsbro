@@ -11,6 +11,38 @@ const MapView = () => {
     const [lng, setLng] = useState(103.8198);
     const [lat, setLat] = useState(1.3521);
     const [zoom, setZoom] = useState(10);
+    const [deals, setDeals] = useState([])
+    const [outlets, setOutlets] = useState([])
+    const [selectedLocation, setSelectedLocation] = useState(null)
+
+    useEffect(() => {
+        if (outlets.length === 0) {
+            return
+        }
+        getDeals().then(allDeals => {
+            setDeals(Object.values(allDeals))
+        })
+    }, [outlets])
+
+    useEffect(() => {
+        if (deals.length === 0) {
+            return
+        }
+        deals.forEach(deal => {
+            outlets.filter(x => x['companyId'] === deal['companyId']).forEach(outlet => {
+                const marker = new mapboxgl.Marker().setLngLat([outlet['longitude'], outlet['latitude']]).addTo(map.current)
+                marker.getElement().addEventListener('click', () => {
+                    const loc = outlets
+                        .filter(out => out.postalCode === outlet.postalCode)
+                        .map(out => ({ ...out, deal: deals.find(deal => deal.companyId === out.companyId) }))
+                        .filter(out => out.deal !== undefined)
+                    setSelectedLocation(loc)
+                })
+            })
+        })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [deals])
+
     useEffect(() => {
 
         if (map.current) return; // initialize map only once
@@ -21,24 +53,8 @@ const MapView = () => {
             zoom: zoom
         });
 
-        getDeals().then(deals => {
-            Object.values(deals).forEach(deal => {
-                const companyId = deal['companyId']
-                getOutlets().then(outlets => {
-
-                    Object.values(outlets).filter(x => x['companyId'] === companyId).forEach(outlet => {
-                        const popup = new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(`
-                            <small class="has-text-weight-medium">${outlet.name}</small>
-                            <h3 class="has-text-weight-semibold">${deal.title}</h3>
-                            <img src="${deal.imgSrc}"/>                            
-                            <p>${deal.description}</p>
-                            <small class="is-italic">${deal.startDT} - ${deal.endDT}</small><br/>
-                            <small><a href="${deal.link}">More Info</a></small>
-                        `)
-                        new mapboxgl.Marker().setLngLat([outlet['longitude'], outlet['latitude']]).setPopup(popup).addTo(map.current)
-                    })
-                })
-            })
+        getOutlets().then(allOutlets => {
+            setOutlets(Object.values(allOutlets))
         })
 
 
@@ -65,7 +81,36 @@ const MapView = () => {
 
     return (
         <div>
-            <div className="greeting">Welcome to DealsBro! (Alpha v0.0.1)</div>
+            <div className="sidebar">
+                <div className='box'>
+                    <strong>Active Deals</strong>
+                    <span className="tag ml-2">{deals.length}</span>
+                </div>
+                <div className='box'>
+                    {selectedLocation ? (
+                        <div>
+                            <div className=''>
+                            <button className="button is-ghost is-small" onClick={() => setSelectedLocation(null)}>Back</button>
+                            </div>
+                            {selectedLocation.map(loc => (
+                                <div className='block'>
+                                    <small className="has-text-weight-medium">{loc.name}</small>
+                                    <h3 className="has-text-weight-semibold">{loc.deal.title}</h3>
+                                    <img src={loc.deal.imgSrc} alt='thumbnail'/>
+                                    <p>{loc.deal.description}</p>
+                                    <small className="is-italic">{loc.deal.startDT} - {loc.deal.endDT}</small><br />
+                                    <small><a href={loc.deal.link}>More Info</a></small>
+                                </div>
+                            ))}
+                        </div>
+                    ) : deals.map(deal => (
+                        <div className='box is-clickable'>
+                            <strong>{deal.title}</strong>
+                            <p>{deal.description}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
             {/* <div className="sidebar">
                 Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
             </div> */}
