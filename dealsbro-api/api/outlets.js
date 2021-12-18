@@ -1,4 +1,5 @@
 import { getLongLatFromPostalCode } from "../utils/geocode"
+import { get as getOrganisations } from "./organisations"
 
 const url = "https://dealsbro-f1db3-default-rtdb.asia-southeast1.firebasedatabase.app/"
 
@@ -13,6 +14,10 @@ export const get = async () => {
 
 export const getAllOutlets = async () => {
     const data = await get()
+    const orgs = await getOrganisations()
+    Object.keys(data).forEach(outletId => {
+        data[outletId] = {...data[outletId], company: orgs[data[outletId]['companyId']]}
+    })
     return new Response(JSON.stringify(data, null, 2), { headers })
 }
 
