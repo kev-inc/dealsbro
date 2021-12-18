@@ -1,3 +1,5 @@
+import { get as getOutlets } from "./outlets"
+
 const url = "https://dealsbro-f1db3-default-rtdb.asia-southeast1.firebasedatabase.app/"
 
 const headers = {
@@ -5,8 +7,16 @@ const headers = {
     'Content-type': 'application/json',
 }
 
+export const get = async () => {
+    return fetch(url + "organisations.json").then(resp => resp.json())
+}
+
 export const getAllOrganisations = async () => {
-    const data = await fetch(url + "organisations.json").then(resp => resp.json())
+    let data = await get()
+    const outlets = await getOutlets()
+    Object.keys(data).forEach(orgId => {
+        data[orgId] = {...data[orgId], outlets: Object.values(outlets).filter(outlet => outlet.companyId === orgId)}
+    })
     return new Response(JSON.stringify(data, null, 2), { headers })
 }
 

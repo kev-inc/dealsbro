@@ -7,8 +7,12 @@ const headers = {
     'Access-Control-Allow-Origin': '*',
 }
 
+export const get = async () => {
+    return fetch(url + "outlets.json").then(resp => resp.json())
+}
+
 export const getAllOutlets = async () => {
-    const data = await fetch(url + "outlets.json").then(resp => resp.json())
+    const data = await get()
     return new Response(JSON.stringify(data, null, 2), { headers })
 }
 
